@@ -1,7 +1,7 @@
 # Maintainer: Silent Robot <d3signr@gmail.com>
 
 pkgname=salientos-calamares-xfce-config
-_destname1="/usr/share"
+_destname1="/etc"
 pkgver=3.2.36
 pkgrel=1
 pkgdesc="Salient OS XFCE - Calamares Config"
@@ -17,5 +17,5 @@ source=(${pkgname}::"git+${url}/${pkgname}")
 sha256sums=('SKIP')
 package() {
 	install -dm755 ${pkgdir}${_destname1}
-	yes | cp -rf ${srcdir}/${pkgname}${_destname1}/* ${pkgdir}${_destname1}
+	cp -r ${srcdir}/${pkgname}${_destname1}/* ${pkgdir}${_destname1}
 }
