@@ -1,7 +1,7 @@
 # Maintainer: Silent Robot <d3signr@gmail.com>
 
 pkgname=salientos-calamares-xfce-config
-_destname1="/usr/share"
+_destname1="/etc"
 pkgver=3.2.36
 pkgrel=1
 pkgdesc="Salient OS XFCE - Calamares Config"
