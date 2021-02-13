@@ -24,19 +24,20 @@ Presentation
     id: presentation
 
     function nextSlide() {
-        console.log("Next slide");
+        console.log("QML Component (default slideshow) Next slide");
         presentation.goToNextSlide();
     }
 
     Timer {
         id: advanceTimer
         interval: 30000
-        running: false
+        running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
     }
 
     Slide {
+
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
         
@@ -65,6 +66,7 @@ Presentation
     }
 
     Slide {
+
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
 
@@ -91,6 +93,7 @@ Presentation
     }
 
     Slide {
+
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
 
@@ -119,6 +122,7 @@ Presentation
     }
 
     Slide {
+    	
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
 

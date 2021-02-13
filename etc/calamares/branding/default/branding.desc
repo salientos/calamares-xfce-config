@@ -14,8 +14,8 @@ strings:
     shortProductName:    Salient OS
     version:             rolling Rolling
     shortVersion:        rolling
-    versionedName:       Salient OS rolling
-    shortVersionedName:  Salient OS rolling
+    versionedName:       Salient OS
+    shortVersionedName:  Salient OS
     bootloaderEntryName: salientos
 
 images:
@@ -23,11 +23,11 @@ images:
     productIcon:         "logo.png"
     productWelcome:      "languages.png"
 
-slideshow:               "show.qml"
-slideshowAPI: 2
-
 style:
    sidebarBackground:    "#222D32"
    sidebarText:          "#EFEFEF"
    sidebarTextSelect:    "#EFEFEF"
    sidebarTextHighlight: "#32343D"
+
+slideshow:               "show.qml"
+slideshowAPI: 2
