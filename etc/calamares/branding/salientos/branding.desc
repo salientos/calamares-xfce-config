@@ -4,7 +4,7 @@ componentName:  salientos
 welcomeStyleCalamares: false
 welcomeExpandingLogo: true
 windowExpanding: noexpand
-windowSize: 840px,630px
+windowSize: 800px,600px
 windowPlacement: center
 sidebar: widget
 navigation: widget
@@ -12,8 +12,8 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Salient OS
-    version:             rolling Rolling
-    shortVersion:        rolling
+    version:             Rolling
+    shortVersion:        Rolling
     versionedName:       Salient OS
     shortVersionedName:  Salient OS
     bootloaderEntryName: salientos
@@ -28,7 +28,7 @@ style:
    sidebarBackground:    "#222D32"
    sidebarText:          "#EFEFEF"
    sidebarTextSelect:    "#EFEFEF"
-   sidebarTextHighlight: "#43444a"
+   sidebarTextHighlight: "#3281f8"
 
 slideshow:               "show.qml"
 slideshowAPI: 2
