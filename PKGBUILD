@@ -3,7 +3,7 @@
 pkgname=salientos-calamares-xfce-config
 _destname1="/etc"
 pkgver=3.2.36
-pkgrel=5
+pkgrel=6
 pkgdesc="Salient OS XFCE - Calamares Config"
 arch=('any')
 url="https://github.com/salientos"

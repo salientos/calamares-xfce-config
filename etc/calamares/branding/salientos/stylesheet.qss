@@ -22,90 +22,50 @@ object names (ids), which you can find through debugging tools.
 }
 
 #sidebarApp {
-	background-color: #222d32;
+	background-color: #111c21;
 }
 
 #logoApp {
-	background-color: #222d32;
+	background-color: #111c21;
 }
 
 #sidebarMenuApp {
-	background-color: #222d32;
+	background-color: #111c21;
 	font: 20px;
-	padding-top: 30px;
+	padding-top: 20px;
+}
+
+#sidebarTextHighlight {
+	background: #222d32;
+	border-right: 2px solid #111c21;
+	color: #ffffff;
 }
 
 QWidget {
-	background-color: #bcc5cb;
-	font: 16px;
-	color: #222d32;
-}
-
-QListWidget::item:alternate {
-	background: #bcc5cb;
-	color: #222d32;
-}
-
-QTextEdit, QListView {
-    	background-color: #EFEFEF;
+	background-color: #222d32;
+	font: 14px;
+	color: #ffffff;
 }
 
 QDialogButtonBox { 
 	dialogbuttonbox-buttons-have-icons: 0;
 }
 
-QAbstractSpinBox {
-	background: #EFEFEF;
-}
-
-/* ########## LIST VIEW ########## */
-
-QListView::item:alternate {
-	background: #EFEFEF;
-	color: #222d32;
-}
-
-QListView::item:!alternate:selected:active {
-	background: qlineargradient(x1: 0, y1: 1, x2: 1, y2: 1,
-        stop: 0 #222d32, stop: 0.499 #222d32,
-        stop: 0.50 white, stop: 1.0 white);
-}
-
-QListView::item:selected:active {
-	background: #222d32;
-	color: white;
-}
-
-QListView::item:selected:!active {
-	background: #222d32;
-	color: white;
-}
-
-QListView::item:hover {
-	background: #222d32;
-	color: white;
-}
-
-QListView#listLayout::item:!alternate:selected:active {
-	background: #222d32;
-}
-
-QListView#listVariant::item:!alternate:selected:active {
-	background: #37353c;
-}
-
 /* ########## PROGRESS BAR ########## */
 
 QProgressBar {
-	background-color: #3281f8;
-	color: #FFFFFF;
-    border: 2px solid #222d32;
-   	border-radius: 0px;
+	background-color: #111c21;
+	color: #ffffff;
+    border: 1px solid #222d32;
+   	border-radius: 5px;
 	text-align: center;
+	height: 25px;
 }
 
 QProgressBar::chunk {
-    	background-color: #222d32;
+    background-color: #3281f8;
+    border: 1px solid #111c21;
+   	border-radius: 5px;
 }
 
 /* Partitioning module.
