@@ -2,7 +2,7 @@
 
 ##############################################################################
 #
-#  Program :	Git_Push v1
+#  Program :	git_push v1
 #  Arch    :	x86_64 
 #  Author  : 	Silent Robot
 #  Website : 	https://sourceforge.net/projects/salient-os/
@@ -22,13 +22,9 @@ _msg "Checking for newer files online."
 git pull
 
 _msg "Backing up everything in project folder."
-git add --all .
+git add --all . | tee -a README.md
 
-_msg "Enter your commit message (optional)"
-
-read input
-
-# Committing to the repository with commit comment if given
+read -p "Enter your commit message (optional): " input
 
 _msg "Committing to the repository."
 git commit -m "$input"

@@ -2,7 +2,7 @@
 
 ##############################################################################
 #
-#  Program :	GitSet v1
+#  Program :	git_setup v1
 #  Arch    :	x86_64 
 #  Author  : 	Silent Robot
 #  Website : 	https://sourceforge.net/projects/salient-os/
