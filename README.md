@@ -7,3 +7,5 @@
 </p>
 
 Salient OS Calamares XFCE Config
+
+Slideshow images by <a href="https://www.pling.com/u/antechdesigns/"/>Antechdesigns</a>
