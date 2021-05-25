@@ -12,8 +12,8 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Salient OS
-    version:             v21.05
-    shortVersion:        v21.05
+    version:             Rolling
+    shortVersion:        Rolling
     versionedName:       Salient OS
     shortVersionedName:  Salient OS
     bootloaderEntryName: salientos
