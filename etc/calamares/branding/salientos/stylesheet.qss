@@ -229,7 +229,6 @@ QPushButton::hover {
     background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #2385b4, stop:1 #1D77C5);
     border: 1px solid #46a2da;
     color: #000;
-    cursor: pointing_hand;
 }
 
 QPushButton::pressed {
