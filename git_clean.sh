@@ -38,6 +38,6 @@ _msg "Git Repository Setup Complete!"
 _msg "Moving config to .git dir & pushing changes..."
 mv config .git/config
 git add --all .
-git commit -m "Repository is Online!"
+git commit -m "Initialise Repo"
 git push origin master --force
 _msg "Git clean up completed..."
